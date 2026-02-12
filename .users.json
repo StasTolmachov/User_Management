@@ -1,0 +1,32 @@
+[
+  {
+    "email": "test@user.com",
+    "first_name": "test",
+    "last_name": "user",
+    "password": "SecurePass123!"
+  },
+  {
+    "email": "long.name.test@corporate-global-systems.inc",
+    "first_name": "Maximilian-Alexander",
+    "last_name": "Fitzgerald-Kennedy",
+    "password": "VeryComplexPass!2026"
+  },
+  {
+    "email": "ivan.petrov@mail.ru",
+    "first_name": "Иван",
+    "last_name": "Петров",
+    "password": "КириллицаТоже!Ок111"
+  },
+  {
+    "email": "short@io.it",
+    "first_name": "Li",
+    "last_name": "Wu",
+    "password": "Minimalis!tPass9"
+  },
+  {
+    "email": "  trimmed.user@test.com  ",
+    "first_name": " Space ",
+    "last_name": " Bender ",
+    "password": " TrimMeIfYouCan!777 "
+  }
+]

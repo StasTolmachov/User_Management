@@ -1,0 +1,16 @@
+all: false
+dir: "{{.InterfaceDir}}/mocks"
+filename: "{{.PackageName}}_mock.go"
+log-level: info
+structname: '{{.Mock}}{{.InterfaceName}}'
+recursive: false
+packages:
+  foxminded/4_user_management/internal/repository:
+    config:
+      all: true
+  foxminded/4_user_management/internal/service:
+    config:
+      all: true
+  foxminded/4_user_management/internal/cache:
+    config:
+      all: true
